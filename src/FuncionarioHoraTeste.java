@@ -13,7 +13,7 @@ public class FuncionarioHoraTeste {
 		
 		System.out.printf("%s %s%n", "O CPF é", empregado.getCpf());
 
-		System.out.printf("%s %.2f%n", "O total de horas trabalhadas é", empregado.getHoras());
+		System.out.printf("%s %d%n", "O total de horas trabalhadas é", empregado.getHoras());
 		
 		System.out.printf("%s %.2f%n", "O salário por hora é ", empregado.getSalarioHora());
 		
